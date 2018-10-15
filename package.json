@@ -1,0 +1,26 @@
+{
+  "name": "tonejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danielgomesmateus/tonejs.git"
+  },
+  "author": "Daniel Gomes Mateus",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/danielgomesmateus/tonejs/issues"
+  },
+  "homepage": "https://github.com/danielgomesmateus/tonejs#readme",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-jsmin": "^0.1.5",
+    "gulp-rename": "^1.4.0",
+    "gulp-uglifycss": "^1.1.0"
+  }
+}
