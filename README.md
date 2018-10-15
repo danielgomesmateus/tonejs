@@ -20,6 +20,11 @@ git clone https://github.com/danielgomesmateus/tonejs.git
 - gulp-jsmin
 - gulp-rename
 - gulp-uglifycss
+- tone
+- express
+- helmet
+- nodemon
+- jquery
 
 ### Instalação
 

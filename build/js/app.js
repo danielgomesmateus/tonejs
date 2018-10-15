@@ -36,4 +36,12 @@
 
   btnStart.addEventListener('click', start);
   btnStop.addEventListener('click', stop);
+
+  //ToneJS
+  let toneOscillator = new Tone.Oscillator({
+    'frequency': 400,
+    'volume': -10
+  }).toMaster();
+
+  Interface.Dragger({});
 })();

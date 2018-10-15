@@ -2,7 +2,7 @@
   "name": "tonejs",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -17,10 +17,15 @@
   },
   "homepage": "https://github.com/danielgomesmateus/tonejs#readme",
   "dependencies": {
+    "express": "^4.16.4",
     "gulp": "^3.9.1",
     "gulp-concat": "^2.6.1",
     "gulp-jsmin": "^0.1.5",
     "gulp-rename": "^1.4.0",
-    "gulp-uglifycss": "^1.1.0"
+    "gulp-uglifycss": "^1.1.0",
+    "helmet": "^3.14.0",
+    "jquery": "^3.3.1",
+    "nodemon": "^1.18.4",
+    "tone": "^0.12.80"
   }
 }
